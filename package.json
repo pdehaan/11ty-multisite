@@ -1,17 +1,25 @@
 {
   "name": "11ty-multisite",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-multisite/issues"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-multisite#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-multisite.git"
+  },
   "scripts": {
     "build": "NODE_ENV=production node builder.mjs",
     "postbuild": "npx prettier www --write",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
   }
 }
